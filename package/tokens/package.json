@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Gildemberg Leite <gildembergleite@gmail.com> (http://gildembergleite@gmail.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.3.3"
+  }
 }
