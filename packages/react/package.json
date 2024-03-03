@@ -13,6 +13,8 @@
   "author": "Gildemberg Leite <gildembergleite@gmail.com> (http://gildembergleite@gmail.com/)",
   "license": "MIT",
   "devDependencies": {
+    "@gildembergleite/ts-config": "*",
+    "@gildembergleite/tokens": "*",
     "tsup": "8.0.2",
     "typescript": "5.3.3"
   }
