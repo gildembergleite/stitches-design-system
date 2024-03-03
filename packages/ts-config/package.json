@@ -1,0 +1,7 @@
+{
+  "name": "@gildembergleite/ts-config",
+  "version": "1.0.0",
+  "author": "Gildemberg Leite <gildembergleite@gmail.com> (http://gildembergleite@gmail.com/)",
+  "license": "MIT",
+  "private": true
+}
