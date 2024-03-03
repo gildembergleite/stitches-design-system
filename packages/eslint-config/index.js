@@ -29,6 +29,7 @@ module.exports = {
         arrowParens: "always",
         semi: false,
         endOfLine: "auto",
+        bracketSameLine: false
       },
     ],
     "react/react-in-jsx-scope": "off",
