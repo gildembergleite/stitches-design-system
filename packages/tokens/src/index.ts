@@ -1,7 +1,9 @@
+/* eslint-disable prettier/prettier */
 export * from './colors'
 export * from './font-sizes'
 export * from './font-weights'
 export * from './fonts'
 export * from './line-heights'
-export * from './radius'
+export * from './radii'
 export * from './space'
+
