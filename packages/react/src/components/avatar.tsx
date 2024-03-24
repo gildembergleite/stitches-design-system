@@ -26,7 +26,7 @@ const AvatarFallback = styled(AvatarComponent.Fallback, {
   alignItems: 'center',
   borderRadius: 'inherit',
   backgroundColor: '$gray-600',
-  color: '$gray-800',
+  color: '$gray-200',
 
   svg: {
     width: '$6',
