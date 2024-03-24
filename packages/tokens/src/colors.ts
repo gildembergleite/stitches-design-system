@@ -12,7 +12,7 @@ export const colors = {
   'gray-900': '#121214',
 
   'system-300': '#8EB0D1',
-  'system-500': '#406482',
+  'system-500': '#6689A9',
   'system-700': '#406482',
   'system-900': '#19415D',
 }
