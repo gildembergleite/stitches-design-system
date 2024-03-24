@@ -20,6 +20,7 @@
     "vite": "5.1.5"
   },
   "dependencies": {
-    "@stitches/react": "1.2.8"
+    "@stitches/react": "1.2.8",
+    "polished": "4.3.1"
   }
 }
