@@ -2,32 +2,85 @@ import { ComponentProps } from 'react'
 import { styled } from '../styles'
 
 export const Button = styled('button', {
-  backgroundColor: '$system-300',
+  all: 'unset',
   borderRadius: '$sm',
+  fontSize: '$sm',
+  fontWeight: 'medium',
   fontFamily: '$default',
-  fontWeight: 'bold',
-  color: '$white',
-  border: 0,
+  minWidth: 120,
+  boxSizing: 'border-box',
+  textAlign: 'center',
+
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: '$2',
+
+  cursor: 'pointer',
+  '&:disabled': {
+    cursor: 'not-allowed',
+  },
+
+  svg: {
+    width: '$4',
+    height: '$4',
+  },
+
+  transition: 'all 300ms ease-in-out',
+
   variants: {
+    variant: {
+      primary: {
+        backgroundColor: '$system-500',
+        color: '$white',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$system-300',
+        },
+        '&:disabled': {
+          backgroundColor: '$gray-200',
+        },
+      },
+      outlined: {
+        color: '$system-300',
+        border: ' 2px solid $system-500',
+        '&:not(:disabled):hover': {
+          backgroundColor: '$system-500',
+          color: '$white',
+        },
+        '&:disabled': {
+          borderColor: '$gray-200',
+          color: '$gray-200',
+        },
+      },
+      link: {
+        color: '$gray-100',
+        '&:not(:disabled):hover': {
+          textDecoration: 'underline',
+        },
+        '&:disabled': {
+          borderColor: '$gray-200',
+          color: '$gray-200',
+        },
+      },
+    },
     size: {
-      small: {
+      sm: {
         fontSize: 14,
         padding: '$2 $4',
+        height: 38,
       },
-      medium: {
+      md: {
         fontSize: 16,
         padding: '$3 $6',
-      },
-      large: {
-        fontSize: 18,
-        padding: '$4 $8',
+        height: 46,
       },
     },
   },
 
   defaultVariants: {
-    size: 'medium',
+    variant: 'primary',
+    size: 'md',
   },
 })
 
-export type ButtonProps = ComponentProps<typeof Button>
+export interface ButtonProps extends ComponentProps<typeof Button> {}
