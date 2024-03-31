@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 
 export default {
-  title: 'Typography/Checkbox',
+  title: 'Form/Checkbox',
   component: Checkbox,
   decorators: [
     (Story) => (

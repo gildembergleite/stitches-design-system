@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 
 export default {
-  title: 'Typography/Avatar',
+  title: 'Data Display/Avatar',
   component: Avatar,
   args: {
     src: 'https://github.com/gildembergleite.png',

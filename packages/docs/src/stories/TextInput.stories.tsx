@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 
 export default {
-  title: 'Typography/Text Input',
+  title: 'Form/Text Input',
   component: TextInput,
   args: {},
   decorators: [

@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 
 export default {
-  title: 'Typography/Multi Step',
+  title: 'Form/Multi Step',
   component: MultiStep,
   args: {
     size: 4,
