@@ -31,10 +31,10 @@ export const Button = styled('button', {
   variants: {
     variant: {
       primary: {
-        backgroundColor: '$system-500',
+        backgroundColor: '$system-700',
         color: '$white',
         '&:not(:disabled):hover': {
-          backgroundColor: '$system-300',
+          backgroundColor: '$system-500',
         },
         '&:disabled': {
           backgroundColor: '$gray-200',
@@ -42,9 +42,9 @@ export const Button = styled('button', {
       },
       outlined: {
         color: '$system-300',
-        border: ' 2px solid $system-500',
+        border: ' 2px solid $system-700',
         '&:not(:disabled):hover': {
-          backgroundColor: '$system-500',
+          backgroundColor: '$system-700',
           color: '$white',
         },
         '&:disabled': {
