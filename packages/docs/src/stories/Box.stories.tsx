@@ -6,7 +6,13 @@ export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {},
-  
+  argTypes: {
+    children: {
+      control: {
+        type: null
+      }
+    }
+  }
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {
