@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@gildembergleite/react'
+import { Box, BoxProps, Heading, Text } from '@gildembergleite/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 
@@ -19,7 +19,8 @@ export const Primary: StoryObj<BoxProps> = {
   args: {
     children: (
       <>
-        <h1>Box</h1>
+        <Heading>Box title</Heading>
+        <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque expedita ex, voluptate ullam minima inventore non. Blanditiis maxime natus, dolores sequi labore, nostrum repellat est in necessitatibus vitae dolor nihil!</Text>
       </>
     ),
   }
