@@ -4,9 +4,18 @@ import type { Meta, StoryObj } from '@storybook/react'
 export default {
   title: 'Typography/Heading',
   component: Heading,
-    args: {
-    children: 'Title example'
-  }
+  args: {
+    children: 'Title example',
+    size: 'xl',
+  },
+  argTypes: {
+    size: {
+      options: ['xl', '2xl', '3xl', '4xl', '5xl', '6xl', '7xl', '8xl', '9xl'],
+      control: {
+        type: 'inline-radio'
+      }
+    },
+  },
 } as Meta<HeadingProps>
 
 export const Primary: StoryObj<HeadingProps> = {}
