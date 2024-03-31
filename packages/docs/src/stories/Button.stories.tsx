@@ -7,9 +7,29 @@ export default {
   component: Button,
   args: {
     label: 'Button',
-    children: 'Button'
+    children: 'Button',
+    variant: 'primary',
+    disabled: false,
+    size: 'md',
   },
   argTypes: {
+    variant: {
+      options: ['primary', 'outlined', 'link'],
+      control: {
+        type: 'inline-radio'
+      }
+    },
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio'
+      }
+    },
+    disabled: {
+      control: {
+        type: 'boolean'
+      }
+    },
     onClick: {
       action: 'click'
     }
