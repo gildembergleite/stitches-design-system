@@ -8,6 +8,13 @@ export default {
   args: {
     src: 'https://github.com/gildembergleite.png',
     alt: 'Gildemberg Leite'
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text'
+      }
+    }
   }
 } as Meta<AvatarProps>
 
